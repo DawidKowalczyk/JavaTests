@@ -27,8 +27,7 @@ public void Chain(){
         findElement(By.name("pName3")).
         findElement(By.tagName("a"));
         assertEquals("id", "id");
-
-}
+        }
 // by idOrName Chaining findElement and By support classes
 
 
@@ -36,6 +35,6 @@ public void Chain(){
 public static void close(){
         driver.quit();
 
-}
-
         }
+
+}

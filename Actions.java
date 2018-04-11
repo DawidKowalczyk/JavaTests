@@ -19,7 +19,7 @@ public class Actions {
 
     @Before
     public void SetUp() {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.get("https://compendiumdev.co.uk/selenium/gui_user_interactions.html");
     }
 

@@ -24,10 +24,12 @@ public class Wait {
     public void expectedConditions(){
         new WebDriverWait(driver,10).until(titleIs("HTML Form Elements"));
     }
+
     @Test
     public void nextConditon(){
         new WebDriverWait(driver,10,20).until(titleIs("HTML Form Elements"));
     }
+
     @Test
     public void lastCondition(){
         waigt.until(titleIs("HTML Form Elements"));
