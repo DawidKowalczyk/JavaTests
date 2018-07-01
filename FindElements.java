@@ -22,9 +22,9 @@ public class FindElements {
 
     @Test
     public void divTest() {
-        List<WebElement> dupa;
-        dupa = driver.findElements(By.tagName("div"));
-        assertEquals(19, dupa.size());
+        List<WebElement> smoke;
+        smoke = driver.findElements(By.tagName("div"));
+        assertEquals(19, smoke.size());
     }
 
     @Test
